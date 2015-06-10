@@ -1,11 +1,11 @@
----
-¡¡¡¡layout: default
-¡¡¡¡title: ÎÒµÄBlog
-¡¡¡¡---
-¡¡¡¡<h2>{{ page.title }}</h2>
-¡¡¡¡<p>×îÐÂÎÄÕÂ</p>
-¡¡¡¡<ul>
-¡¡¡¡¡¡¡¡{% for post in site.posts %}
-¡¡¡¡¡¡¡¡¡¡¡¡<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-¡¡¡¡¡¡¡¡{% endfor %}
-¡¡¡¡</ul>
+ï»¿---
+aalayout: default
+aatitle: ??Blog
+aa---
+aa<h2>{{ page.title }}</h2>
+aa<p>?Ñ‚Ï„?</p>
+aa<ul>
+aaaa{% for post in site.posts %}
+aaaaaa<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+aaaa{% endfor %}
+aa</ul>
