@@ -1,9 +1,9 @@
 ---
 layout: default
-title: myBlog1
+title: myBlog2
 ---
 <h2>{{ page.title }}</h2>
-<p>article</p>
+<p>我的article</p>
 <ul>
 {% for post in site.posts %}
 <li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
