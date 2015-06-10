@@ -18,3 +18,20 @@ title: welcome to my first markdown blog
 
 
 <p>{{ page.date | date_to_string }}</p>
+
+<table>
+<thead>
+<tr class="header">
+<th align="left">2</th>
+<th align="left">2</th>
+<th align="left">2</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">1</td>
+<td align="left">1</td>
+<td align="left">2</td>
+</tr>
+</tbody>
+</table>
