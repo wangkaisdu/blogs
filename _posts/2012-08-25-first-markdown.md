@@ -8,8 +8,12 @@ title: welcome to my first markdown blog
 
 ### 欢迎使用Markdown
 
-*正文加粗*
+*斜体*
 
 **正文加粗**
+
+| 日期        | 安排   |    
+| --------   | -----:  |  
+ |6.10|无安排
 
 <p>{{ page.date | date_to_string }}</p>
