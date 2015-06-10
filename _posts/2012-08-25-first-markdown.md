@@ -1,6 +1,6 @@
 ---
 layout: default
-title: welcome to markdown blog
+title: welcome to my first markdown blog
 ---
 <h2>{{ page.title }}</h2>
 <p>my first markdown page</p>
