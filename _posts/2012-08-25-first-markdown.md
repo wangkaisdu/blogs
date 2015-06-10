@@ -14,6 +14,6 @@ title: welcome to my first markdown blog
 
 | 日期        | 安排   |    
 | --------   | -----:  |  
- |6.10|无安排
+| 6.10 | 无安排 |
 
 <p>{{ page.date | date_to_string }}</p>
