@@ -3,7 +3,9 @@ layout: default
 title: welcome to my first markdown blog
 ---
 <h2>{{ page.title }}</h2>
-<p>my first markdown page</p>
+
+
+my first markdown page
 
 ## 欢迎使用Markdown
 
